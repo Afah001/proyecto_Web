@@ -1,0 +1,52 @@
+
+/*MENU, nav */
+
+#menu{		
+       
+         background: blue;
+         border-radius: 20px;
+      
+         padding-top: 15px;
+         padding-bottom: 15px;
+   
+
+   }
+
+
+nav ul .i_menu{  
+
+
+    padding-right: 10px;  /*espacio*/
+  	display:inline ;
+	position:relative;
+	left: 40%;/*centrando el menu*/
+	font-size: 22px;
+	color: white;
+
+
+
+}
+
+a{
+
+text-decoration:none; /*subrayado de enlaces*/
+
+}
+
+
+#barraLateral{
+	padding-top: 50px;
+	height:150px;
+	width:200px;
+	background:blue;
+	border-radius:20px;
+
+}
+
+aside ul .i_barraLateral{
+
+	color:white;
+
+
+
+}
