@@ -1,0 +1,90 @@
+
+/*MENU, nav */
+
+#menu{		
+       
+         background: #2D9FEA;
+         border-radius: 20px;
+      
+         padding-top: 12px;
+         padding-bottom: 12px;
+   
+
+   }
+
+
+nav ul .i_menu{  /*letras del menu*/
+
+
+    padding-right: 50px;  /*espacio*/
+  	display:inline ;
+	position:relative;
+	left: 30%;/*centrando el menu*/
+	font-size: 19px;
+	color: white;
+
+
+}
+
+a{
+
+text-decoration:none; /*subrayado de enlaces*/
+
+}
+
+/*BARRA LATERAL, adside*/
+#barraLateral{
+	padding-top: 60px;
+	height:150px;
+	width:200px;
+	background:#2D9FEA;
+	border-radius:20px;
+
+
+}
+
+aside ul .i_barraLateral{  /*letras de la barra lateral*/
+
+	color:white;
+	font-size: 17px;
+	padding-bottom:7px;
+
+}
+
+
+/*INFORMACION PRINCIPAL-section*/
+section {
+
+
+	width: 700px;
+	height: 1000px;
+	position:absolute;
+	left:25%;
+	text-align: justify;
+
+
+
+}
+
+
+
+
+/*PIE DE PAGINA-footer*/
+
+footer p {
+
+
+	background:#586066;
+	color: white;
+	border-radius:5px;
+	display: inline;
+	position: relative;
+	left:32%;
+	padding:10px 200px 10px 200px;
+
+}
+
+
+
+	
+

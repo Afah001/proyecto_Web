@@ -2,10 +2,11 @@
 <html>
 <head>
 	<title>Especialistas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<?php include 	"estructuraBasica/header.php";
-		  include	"estructuraBasica/nav.php"; ?>
+	<?php include 	"sections/header.php";
+		  include	"sections/nav.php"; ?>
 
 		  <section>
 
@@ -15,8 +16,8 @@
 
 		  </section>
 
-	<?php include	"estructuraBasica/aside.php";
-		  include	"estructuraBasica/footer.php"; ?>
+	<?php include	"sections/aside.php";
+		  include	"sections/footer.php"; ?>
 	
 </body>
 </html>
