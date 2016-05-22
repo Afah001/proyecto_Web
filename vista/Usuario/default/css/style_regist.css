@@ -1,0 +1,52 @@
+/*formularion de inicio de sesion*/
+
+#inicioSesion{
+	border: 2px solid #2D9FEA;
+	background: white;
+	padding: 12px ;
+	float:right;
+	font-size:16px;
+}
+
+
+
+#boton_iniciar{
+
+	background: #2D9FEA;
+	border-radius: 8px;
+	color: white;
+	position: relative;
+	left:20%;
+
+}
+
+
+
+/*formulario de registro*/
+#registro{  
+	display: inline;
+	position: relative;
+	left:38%;
+}
+fieldset{
+	display: inline;
+	border-color:#2D9FEA;	
+	padding:35px 35px 35px 35px;
+}
+legend{
+	color:#2D9FEA; 
+}
+
+.input_text{
+	float: right;
+}
+
+#boton_registrar{
+	background: #2D9FEA;
+	border-radius: 8px;
+	color: white;
+	position: relative;
+	left:31%;
+	padding-left:25px;
+	padding-right: 25px;
+}	

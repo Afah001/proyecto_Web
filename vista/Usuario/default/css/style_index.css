@@ -12,14 +12,21 @@ nav  h1{ 		/*saluld y bienestar*/
 	
 }
 
-nav  ul a li{		/*registro e inicio de sesion*/
+nav  ul li{		/*registro e inicio de sesion*/
 	display: inline;
 	color: white;	
 	position: relative;
 	left: 82%;
 	padding-right:27px;
-	font-size: 17px;
+	font-size: 19px;
 }
+
+#_registrate{
+
+	color: white;
+}
+
+
 
 a{			/*enlaces*/
 
@@ -39,6 +46,7 @@ form{
 	background: white;
 	padding: 12px ;
 	float:right;
+	font-size:16px;
 }
 
 
@@ -46,7 +54,7 @@ form{
 form #boton{
 
 	background: #2D9FEA;
-	border-radius: 10px;
+	border-radius: 8px;
 	color: white;
 	position: relative;
 	left:20%;
@@ -56,7 +64,7 @@ form #boton{
 div{	/*div*/
 
 	width: 55%;
-	height: auto;
+	height: auto;	
 	border: 1px solid gray;
 	background: white;
 	text-align: center;

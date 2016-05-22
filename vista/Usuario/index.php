@@ -14,8 +14,9 @@
             <h1>Salud y Bienestar</h1>
 
             <ul>
-             <a href="default/registro.php"><li>Registrarse</li></a>
-             <a href=""><li>Iniciar Sesion</li></a>
+
+                <li ><a href="default/registro.php" id="_registrate">Registrate</a></li>
+                <li >Iniciar Sesion</li>
            
            </ul>
 
