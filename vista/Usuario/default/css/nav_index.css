@@ -1,0 +1,30 @@
+
+/*NAV*/
+nav{   
+	background:#2D9FEA;  
+}
+
+
+nav  h1{ 		/*saluld y bienestar*/
+
+	font-size:30px;
+	color: white;
+	display: inline;
+	
+}
+
+nav  ul a li{		/*registro e inicio de sesion*/
+	display: inline;
+	color: white;	
+	position: relative;
+	left: 82%;
+	padding-right:27px;
+	font-size: 17px;
+}
+
+a{			/*enlaces*/
+
+	text-decoration: none;
+
+}
+

@@ -1,80 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
 
+<html>
 <head>
-
-	
-	<meta charset="utf-8"/>
-	<meta name="descripcion" content="consulta las enfermedades que padeces, seguro hay cura, 
-	tranquilo esta web te ayuda con tus dolores ademas contacta a un especialista para mas informacion"/>
-	
-	<meta name="keywords" content="enfermedades,medicamentos,especialistas"/>
-	<link rel="stylesheet" type="text/css" href="default/css/style.css">
-
-	<title>Inico-Consultas medicas</title>
-
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="default/css/style_index.css">
 </head>
+<body>
+    
 
-<body >
+    <nav>
 
-	<header> <!--cabecera-->
+     
+            <h1>Salud y Bienestar</h1>
 
-		<h1>Salud y bienestar</h1>
+            <ul>
+             <a href="default/registro.php"><li>Registrarse</li></a>
+             <a href=""><li>Iniciar Sesion</li></a>
+           
+           </ul>
 
-	</header>
+       
+    </nav>
 
+    <section>
 
+        <img src="default/img/teclado_azul.jpg" title="Salud y Bienestar" > 
 
-	<nav>	<!--menu-->
+        <form>
 
-		<ul id="menu">
-			<a href="index.php"><li class="i_menu">Inicio    </li></a>
-			<a href="default/galeria.php"><li class="i_menu">Galeria</li></a>
-			<a href="default/especialistas.php"><li class="i_menu">Especialistas   </li></a>
-			<a href="default/quienes_somos.php"><li class="i_menu">Quienes somos    </li></a>
-		</ul>	
+            <p>Correo</p><input><br>
+            <p>Contraseña</p><input><br><br>
+            <input type="submit" value="Iniciar Sesion" id="boton">
 
-	</nav>
-	<section><!--informacion principal-->
+        </form>
 
-	
-	<h1>Informacion Principal</h1>
+        <div>
+            <h3>Cuida tu salud</h3>
+            <p>cuidemos nuestra salud</p> 
 
+            <h3>Informate de muchas enfermedades</h3>
+            <p>Salud y bienestar te trae un buen contenido de informacion que pueda
+             existir en cualquiera de las enfermedades que padezcas o deseas conocer</p>
 
-	<article>Seguramente se está preguntando: « ¿Tiene algún significado esta extraña combinación de letras y números?» Pues la respuesta es «Sí» y así es como funciona:) 
+            <h3>Compra medicamentos que puedan ayudarte</h3>
+            <p>podraz acceder a medicamentos, conocer de ellos y realizar tu compra</p>
 
-Formato de los códigos HTML: 
-Cada código HTML comprende el símbolo «#» y 6 letras o números. Estos números se expresan en el sistema de numeración hexadecimal. Por ejemplo «FF» en hexadecimal representa el número 255 en Decimal. 
+            <h3>Trata la enfermedad con los mejores especialistas</h3>
+            <p>ahora puedes comunicarte con los mejores especialistas de cada una de las 
+            enfermedades, interactua con ellos</p>
+        </div>
+      
+      
 
-Significado de los símbolos: 
-Significado de los símbolos: Los dos primeros símbolos del código de color HTML representan la intensidad del color rojo. 00 es el menos intenso y FF es el más intenso. El tercer y el cuarto número representan la intensidad del verde y el quinto y el sexto representan la intensidad del azul. Así, con esta combinación de la intensidad del rojo, verde y azul podemos mezclar cualquier color que deseemos de corazón;) </article>
-	
+    </section>
 
-		
-	</section>
+    <footer>
 
+            <h5>pie de pagina</h5>
 
-	<aside>	<!--barra lateral-->
-
-	
-		
-		<ul id="barraLateral">
-			<a href="default/enfermedades.php"><li class="i_barraLateral">Enfermedades</li></a>
-			<a href="default/medicamentos.php"><li  class="i_barraLateral">Medicamentos</li></a>
-			<a href="default/especialistas.php"  class="i_barraLateral"><li>Especialistas</li></a>
-		</ul>
-
-	
-		
-	</aside>
-
-
-	<footer><!--pie de pagina-->
-
-		<p>pie de pagina</p>
-
-	</footer>
-
+    </footer>
+    
 </body>
-
 </html>

@@ -1,0 +1,77 @@
+/*NAV*/
+nav{   
+	background:  #2D9FEA;  
+}
+
+
+nav  h1{ 		/*saluld y bienestar*/
+
+	font-size:30px;
+	color: white;
+	display: inline;
+	
+}
+
+nav  ul a li{		/*registro e inicio de sesion*/
+	display: inline;
+	color: white;	
+	position: relative;
+	left: 82%;
+	padding-right:27px;
+	font-size: 17px;
+}
+
+a{			/*enlaces*/
+
+	text-decoration: none;
+
+}
+
+/*SECTION*/
+section{
+
+	background:gray;
+
+}
+
+form{
+	border: 2px solid #2D9FEA;
+	background: white;
+	padding: 12px ;
+	float:right;
+}
+
+
+
+form #boton{
+
+	background: #2D9FEA;
+	border-radius: 10px;
+	color: white;
+	position: relative;
+	left:20%;
+
+}
+
+div{	/*div*/
+
+	width: 55%;
+	height: auto;
+	border: 1px solid gray;
+	background: white;
+	text-align: center;
+
+}
+
+footer{
+
+	
+	border-radius: 10px;
+	background:black;
+	text-align: center;
+	color:white;
+
+
+}
+
+
