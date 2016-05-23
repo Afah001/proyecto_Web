@@ -50,9 +50,7 @@
             <p>ahora puedes comunicarte con los mejores especialistas de cada una de las 
             enfermedades, interactua con ellos</p>
         </div>
-      
-      
-
+    
     </section>
 
     <footer>
