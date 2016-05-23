@@ -4,14 +4,11 @@
 		private $Cuenta;  //objeto Cuenta
 
 
-		public function __construct($_nombre,$_apellido,$_edad,$_Cuenta){
+		public function __construct($_nombre,$_apellido,$_edad,$_di,$_Cuenta){
 
-			parent::__construct($_nombre,$_apellido,$_edad);
+			parent::__construct($_nombre,$_apellido,$_edad,$_di);
 			$this->Cuenta->$_Cuenta;
-		}
+		}	
 
-
-		
-
-	}
+	}	
 ?>

@@ -27,15 +27,15 @@
 
         <img src="default/img/teclado_azul.jpg" title="Salud y Bienestar" > 
 
-        <form>
+        <form action="default/inicio.php" method="get">
 
             <p>Correo</p><input><br>
             <p>Contraseña</p><input><br><br>
-            <input type="submit" value="Iniciar Sesion" id="boton">
+           <input type="submit" value="Iniciar Sesion" id="boton">
 
         </form>
 
-        <div>
+        <div>   
             <h3>Cuida tu salud</h3>
             <p>cuidemos nuestra salud</p> 
 
