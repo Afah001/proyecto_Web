@@ -53,6 +53,8 @@
             <p>La salud es uno de los elementos más relevantes para el desarrollo de una vida larga y cualitativa.</p> 
         </div>
 
+        <img src="default/img/laSalud.jpg" id="laSalud">  
+
         <div id="inf_enfermedades">
             <h3>Informate de muchas enfermedades</h3>
             <p>Salud y bienestar te trae un buen contenido de informacion que pueda
@@ -70,7 +72,7 @@
             enfermedades, interactua con ellos</p>
         </div>
       
-           
+         
     
     </section>
 

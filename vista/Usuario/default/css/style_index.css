@@ -40,16 +40,18 @@ a{			/*enlaces*/
 #img_Principal{
 	width:1484px;
 	height:500px; 
-	position: absolute;
-}	
+	position: relative;
+}
+
 
 form{
 	border: 2px solid #2D9FEA;
 	background: white;
 	padding: 12px ;
-	float:right;
 	font-size:16px;
-	position: relative;
+	position: absolute;
+	left:87%;
+	bottom:432px;
 }
 
 form #boton{
@@ -92,10 +94,15 @@ div h2{/*titulos en el div*/
 	color:#C6C9C9;
 }
 
+
+
 #cuida_tu_salud{  /*explicaion de los titulos*/
 	top:1000px;
 	background:#DBDDDD;
-	border-radius:8px;
+}
+
+#laSalud{
+	position:absolute;
 }
 
 #inf_enfermedades{
