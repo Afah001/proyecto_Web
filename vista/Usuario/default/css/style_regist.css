@@ -37,9 +37,18 @@ legend{
 	color:#2D9FEA; 
 }
 
-.input_text{
+.input{
 	float: right;
+	width:50%;
 }
+
+
+#tipo_select{
+	float: right;
+	width: 51%;
+}
+
+
 
 #boton_registrar{
 	background: #2D9FEA;
