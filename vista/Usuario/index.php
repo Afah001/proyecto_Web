@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html>  
 <head>
 	<title></title>
     <link rel="stylesheet" type="text/css" href="default/css/style_index.css">
@@ -9,13 +9,11 @@
     
 
     <nav>
-
-     
             <h1>Salud y Bienestar</h1>
 
             <ul>
 
-                <li ><a href="default/registro.php" id="_registrate">Registrate</a></li>
+                <li ><a href="default/registro.php" id="_registrate">Registrarse</a></li>
                 <li >Iniciar Sesion</li>
            
            </ul>
@@ -25,9 +23,9 @@
 
     <section>
 
-        <img src="default/img/teclado_azul.jpg" title="Salud y Bienestar" > 
+        <img src="default/img/medicos.jpg" title="Salud y Bienestar" id="img_Principal"> 
 
-        <form action="default/inicio.php" method="get">
+        <form >
 
             <p>Correo</p><input><br>
             <p>Contraseña</p><input><br><br>
@@ -35,21 +33,44 @@
 
         </form>
 
-        <div>   
-            <h3>Cuida tu salud</h3>
-            <p>cuidemos nuestra salud</p> 
 
+        <!--titulos en el div-->
+
+       <div id="div_izq">
+          <h2>Cuida tu salud</h2>
+          <h2>Informate de muchas enfermedades</h2>
+      </div>
+       
+       <div id="div_der">
+            <h2>Compra medicamentos que puedan ayudarte</h2>
+            <h2>Trata la enfermedad con los mejores especialistas</h2>
+       </div>
+
+       <!--explicacion de los titulos-->
+
+        <div id="cuida_tu_salud">
+            <h3>Cuida tu salud</h3>
+            <p>La salud es uno de los elementos más relevantes para el desarrollo de una vida larga y cualitativa.</p> 
+        </div>
+
+        <div id="inf_enfermedades">
             <h3>Informate de muchas enfermedades</h3>
             <p>Salud y bienestar te trae un buen contenido de informacion que pueda
              existir en cualquiera de las enfermedades que padezcas o deseas conocer</p>
+        </div>
 
-            <h3>Compra medicamentos que puedan ayudarte</h3>
-            <p>podraz acceder a medicamentos, conocer de ellos y realizar tu compra</p>
+        <div id="compra_medicamentos">
+             <h3>Compra medicamentos que puedan ayudarte</h3>
+            <p >podraz acceder a medicamentos, conocer de ellos y realizar tu compra</p>
+        </div>
 
+        <div id="trata_enfermedades">
             <h3>Trata la enfermedad con los mejores especialistas</h3>
             <p>ahora puedes comunicarte con los mejores especialistas de cada una de las 
             enfermedades, interactua con ellos</p>
         </div>
+      
+           
     
     </section>
 

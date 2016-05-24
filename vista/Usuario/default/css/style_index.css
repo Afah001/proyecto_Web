@@ -35,11 +35,13 @@ a{			/*enlaces*/
 }
 
 /*SECTION*/
-section{
 
-	background:gray;
 
-}
+#img_Principal{
+	width:1484px;
+	height:500px; 
+	position: absolute;
+}	
 
 form{
 	border: 2px solid #2D9FEA;
@@ -47,9 +49,8 @@ form{
 	padding: 12px ;
 	float:right;
 	font-size:16px;
+	position: relative;
 }
-
-
 
 form #boton{
 
@@ -61,15 +62,62 @@ form #boton{
 
 }
 
-div{	/*div*/
 
-	width: 55%;
-	height: auto;	
-	border: 1px solid gray;
-	background: white;
-	text-align: center;
+div{
+
+	position: absolute;
 
 }
+
+#div_izq,#div_der{ /*dos div*/
+	background:#2D9FEA;
+	border-radius:20px;
+	position:absolute; /*P_A_deja campo para poner elementos a su lado la position relative no deja */
+	top:650px;
+	text-align:left;
+ 	width:320px;
+ 	height:300px;
+}
+
+#div_izq{
+	left:25%;	
+}
+
+#div_der{
+	right:25%;
+}
+
+div h2{/*titulos en el div*/
+	padding:10px;
+	color:#C6C9C9;
+}
+
+#cuida_tu_salud{  /*explicaion de los titulos*/
+	top:1000px;
+	background:#DBDDDD;
+	border-radius:8px;
+}
+
+#inf_enfermedades{
+	top:1200px;
+	background:#DBDDDD;
+	border-radius:8px;
+}
+
+#compra_medicamentos{
+	top:1500px;
+	background:#DBDDDD;
+	border-radius:8px;
+}
+
+#trata_enfermedades{
+	top:1800px;
+	background:#DBDDDD;
+	border-radius:8px;
+}
+
+
+
 
 footer{
 
@@ -78,6 +126,9 @@ footer{
 	background:black;
 	text-align: center;
 	color:white;
+	position:relative;
+	top:3000px;
+
 
 
 }
