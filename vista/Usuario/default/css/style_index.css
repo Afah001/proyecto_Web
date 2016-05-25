@@ -39,7 +39,7 @@ a{			/*enlaces*/
 
 #img_Principal{
 	width:1484px;
-	height:500px; 
+	height:450px; 
 	position: relative;
 }
 
@@ -75,7 +75,7 @@ div{
 	background:#2D9FEA;
 	border-radius:20px;
 	position:absolute; /*P_A_deja campo para poner elementos a su lado la position relative no deja */
-	top:650px;
+	top:625px;
 	text-align:left;
  	width:320px;
  	height:300px;
@@ -91,50 +91,155 @@ div{
 
 div h2{/*titulos en el div*/
 	padding:10px;
-	color:#C6C9C9;
+	color:white;
 }
 
 
 
-#cuida_tu_salud{  /*explicaion de los titulos*/
+#cuida_tu_salud{  /*erDiv*/
 	top:1000px;
-	background:#DBDDDD;
+	width:380px;
+	height:284px;
+
 }
 
-#laSalud{
+
+#cuida_tu_salud h3{
+
+	padding-top:60px;
+	padding-left:40px;
+	color: #2D9FEA;
+
+}
+
+#cuida_tu_salud p{
+	padding-left:40px;
+	padding-right:70px;
+}
+
+
+
+#img_familya{
 	position:absolute;
+	top:1000px;
+	right: 0px;
+	width:1000px;
+	height:284px; 
 }
 
-#inf_enfermedades{
-	top:1200px;
-	background:#DBDDDD;
-	border-radius:8px;
+
+
+#inf_enfermedades{  /*sdo Div*/
+
+	width:380px;
+	height:284px;
+	top:1350px;
+	right:0px;
+
+	
 }
 
-#compra_medicamentos{
-	top:1500px;
-	background:#DBDDDD;
-	border-radius:8px;
+
+#inf_enfermedades h3{
+
+	color:#2D9FEA;
+	padding-top:60px;
 }
 
-#trata_enfermedades{
-	top:1800px;
-	background:#DBDDDD;
-	border-radius:8px;
+#inf_enfermedades h3,p{
+	padding-left:60px;
+	padding-right:37px;
 }
 
+#img_inform{
+	position:absolute;
+	top:1350px;
+	left:0px;
+	width:1000px;
+	height:284px; 
+
+}
+
+
+#compra_medicamentos{  /*tercer div*/
+	width:350px;
+	height:284px;
+	top:1700px;
+	left:500px;
+}
+
+#compra_medicamentos h3{
+
+	color:#2D9FEA;
+	padding-top:60px;
+	padding-left:30px;
+	
+}
+
+#compra_medicamentos p{
+
+	padding-left:30px;
+}
+
+
+#img_medicamentos{
+	width:500px;
+	height:284px;
+	position:absolute;
+	top:1700px;
+	left:0px;
+}
+
+
+#img_medicamentos2{
+	width:500px;
+	height:284px;
+	position:absolute;
+	top:1700px;
+	right:0px;
+
+}
+
+#trata_enfermedades{  /*cuarto div*/
+	width:380px;
+	height:284px;
+	top:2050px;
+	left:0px;
+	
+}
+
+#trata_enfermedades h3{
+
+	color:#2D9FEA;
+	padding-top:60px;
+	padding-left:30px;
+}
+
+
+#trata_enfermedades p{
+	padding-left:30px;
+}
+
+#img_trataEnfermedades{
+
+	width:1000px;
+	height:284px;
+	position:absolute; 
+	top:2050px;
+	right:0px;
+}
 
 
 
 footer{
 
-	
+	height:50px;
 	border-radius: 10px;
 	background:black;
 	text-align: center;
 	color:white;
 	position:relative;
-	top:3000px;
+	top:1900px;
 
 
 

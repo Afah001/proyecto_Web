@@ -23,12 +23,12 @@
 
     <section>
 
-        <img src="default/img/medicos.jpg" title="Salud y Bienestar" id="img_Principal"> 
+        <img src="default/img/principal.jpg" title="Salud y Bienestar" id="img_Principal"> 
 
         <form >
 
-            <p>Correo</p><input><br>
-            <p>Contraseña</p><input><br><br>
+            <p>Correo</p><input type="text"><br>
+            <p>Contraseña</p><input type="password"><br><br>
            <input type="submit" value="Iniciar Sesion" id="boton">
 
         </form>
@@ -53,7 +53,9 @@
             <p>La salud es uno de los elementos más relevantes para el desarrollo de una vida larga y cualitativa.</p> 
         </div>
 
-        <img src="default/img/laSalud.jpg" id="laSalud">  
+        <img src="default/img/familya.jpg" id="img_familya">  
+
+
 
         <div id="inf_enfermedades">
             <h3>Informate de muchas enfermedades</h3>
@@ -61,18 +63,25 @@
              existir en cualquiera de las enfermedades que padezcas o deseas conocer</p>
         </div>
 
-        <div id="compra_medicamentos">
+        <img src="default/img/inform.jpg" id="img_inform">
+
+
+       <div id="compra_medicamentos">
              <h3>Compra medicamentos que puedan ayudarte</h3>
             <p >podraz acceder a medicamentos, conocer de ellos y realizar tu compra</p>
         </div>
 
+        <img src="default/img/medicamento1.jpg" id="img_medicamentos">
+        <img src="default/img/medicament2.jpeg" id="img_medicamentos2">
+
+      
         <div id="trata_enfermedades">
             <h3>Trata la enfermedad con los mejores especialistas</h3>
             <p>ahora puedes comunicarte con los mejores especialistas de cada una de las 
             enfermedades, interactua con ellos</p>
         </div>
-      
-         
+
+        <img src="default/img/especialist.jpg" id="img_trataEnfermedades">
     
     </section>
 
@@ -80,7 +89,7 @@
 
             <h5>pie de pagina</h5>
 
-    </footer>
+    </footer>   
     
 </body>
 </html>
